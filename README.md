@@ -13,6 +13,13 @@ python -c "import torch; print(torch.__version__)"
 python -c "import torch; print(torch.version.cuda)"
 # install pyg
 conda install pyg -c pyg
-# insstall extra packages
-conda install jupyter
+# install extra packages
+conda install jupyter matplotlib
+pip install -r requirements.txt -i"https://pypi.tuna.tsinghua.edu.cn/simple/"
 ```
+
+## Links
+
+- [pyg 深度学习实现库](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)
+- [PYG DOCS](https://pytorch-geometric.readthedocs.io)
+- [Stanford University: A collection of graph machine learning tutorial blog posts, fully realized with PyG](https://medium.com/stanford-cs224w/featured/home)

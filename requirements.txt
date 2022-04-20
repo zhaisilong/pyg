@@ -1,0 +1,6 @@
+# Optional
+trimesh
+rdkit-pypi
+skorch
+captum
+tensorboard
